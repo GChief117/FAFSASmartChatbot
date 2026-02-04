@@ -19,7 +19,7 @@ import { useState, useRef, useEffect, useCallback } from 'react'
    Supported types: image/jpeg, image/png, image/gif, image/webp
    ═══════════════════════════════════════════════════════════════════ */
 
-const API_KEY = 'AIzaSyDxm9XH6aBD4jrXYlDWjPlPneo-4BRsc5k'
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || ''
 const ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`
 
 /* ─── System Prompt ───────────────────────────────────────────── */
@@ -234,7 +234,7 @@ function fileToBase64(file) {
 
 export default function App() {
 
-  const WELCOME_TEXT = 'Welcome to FAFSA Navigator, your expert resource for federal financial aid guidance and FAFSA technical support.\n\nI can help with applications, grants, loans, repayment plans, deadlines, eligibility questions, FSA ID issues, submission errors, and more.\n\nDrag and drop a screenshot or use the attachment button to share images of FAFSA forms, error messages, or financial aid documents for targeted analysis.\n\nSelect a topic below or type your question to get started.'
+  const WELCOME_TEXT = 'Welcome to FAFSA Navigator, your expert resource for federal financial aid guidance and FAFSA technical support.\n\nI can help with applications, grants, loans, repayment plans, deadlines, eligibility questions, FSA ID issues, submission errors, and more. You can also share screenshots for targeted analysis.\n\nSelect a topic below or type your question to get started.'
 
   /* ─── State ─────────────────────────────────────────────────── */
 
