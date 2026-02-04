@@ -2,6 +2,15 @@
 
 Smart financial aid guidance and FAFSA technical support chatbot built with React and Google Gemini 2.0 Flash.
 
+Can either: 
+
+1. Download and play with this lcoally after instlal npm install in the right directory of the rpoejct
+
+pr
+
+2. See the live working app deployed via Railway for live production demo: https://fafsasmartchatbot-production.up.railway.app
+
+
 <img width="1530" height="1125" alt="Screenshot 2026-02-04 at 11 36 27 AM" src="https://github.com/user-attachments/assets/c34eb29b-cdfe-4769-b7b8-675e96624f3b" />
 
 
