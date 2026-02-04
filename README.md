@@ -6,7 +6,7 @@ Can either:
 
 1. Download and play with this lcoally after instlal npm install in the right directory of the rpoejct
 
-pr
+or
 
 2. See the live working app deployed via Railway for live production demo: https://fafsasmartchatbot-production.up.railway.app
 
