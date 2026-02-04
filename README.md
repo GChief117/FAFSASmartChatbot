@@ -2,6 +2,9 @@
 
 AI-powered financial aid guidance and FAFSA technical support chatbot built with React and Google Gemini 2.0 Flash.
 
+<img width="1530" height="1125" alt="Screenshot 2026-02-04 at 11 36 27 AM" src="https://github.com/user-attachments/assets/ca10a58a-f471-4bb1-8f5c-9bd24ec13066" />
+
+
 ## File Structure
 
 ```
